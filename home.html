@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cava</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header style="position: fixed; top: 0; width: 100%; height: 60px; background: rgba(255, 255, 255, 0.9); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); display: flex; align-items: center; justify-content: space-between; padding: 0 15px; z-index: 1000;">
+        <!-- Logo -->
+        <div>
+            <img src="logo.png" alt="Logo" style="height: 40px;">
+        </div>
+        <!-- Nombre del Restaurante -->
+        <div style="font-family: 'Playfair Display', serif; font-size: 18px; font-weight: bold; color: #800020;">
+            La Cava
+        </div>
+        <!-- Menú Hamburguesa -->
+        <div class="menu-button" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#carta-vinos">Carta de Vinos</a></li>
+            <li><a href="#maridajes">Maridajes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- Título Principal -->
+            <h1>La Cava</h1>
+            <!-- Subtítulo -->
+            <p>Explora los sabores del mundo, un sorbo a la vez</p>
+            <!-- Botón -->
+            <a href="carta-vinos.html" class="hero-button">Ver Carta de Vinos</a>
+        </div>
+    </section>
+    
+    
+
+    <script src="script.js"></script>
+    
+
+    
+</body>
+</html>
